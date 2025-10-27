@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Navbar() {
     return (
         <nav className="flex justify-between items-center px-8 md:px-20 py-4 bg-sky-300 shadow-lg">
@@ -7,11 +9,31 @@ export default function Navbar() {
                 alt="Logo"
             />
             <ul className="flex space-x-6 md:space-x-8 text-lg font-medium">
-                <li><a href="#" className="hover:text-sky-900 transition">Inicio</a></li>
-                <li><a href="#" className="hover:text-sky-900 transition">Sobre nosotros</a></li>
-                {/* <li><a href="#" className="hover:text-sky-900 transition">Info</a></li> */}
-                <li><a href="#" className="hover:text-sky-900 transition">Servicios</a></li>
-                <li><a href="#" className="hover:text-sky-900 transition">Contactos</a></li>
+                <li>
+                    <Link to="/" className="hover:text-sky-900 transition">
+                        Inicio
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/sobre-mi" className="hover:text-sky-900 transition">
+                        Sobre mí
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/proyectos" className="hover:text-sky-900 transition">
+                        Proyectos
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/cursos" className="hover:text-sky-900 transition">
+                        Cursos
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/contacto" className="hover:text-sky-900 transition">
+                        Contacto
+                    </Link>
+                </li>
             </ul>
         </nav>
     );
