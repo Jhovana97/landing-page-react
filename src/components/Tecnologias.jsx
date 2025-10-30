@@ -37,5 +37,17 @@ export default function Tecnologias() {
         `}
             </style>
         </section>
+
+//     <section className="py-12 text-center shadow-md bg-gradient-to-r from-yellow-100 via-pink-100 to-sky-50">
+//       <h3 className="text-2xl md:text-3xl font-bold text-sky-900 mb-8">Tecnologías que uso</h3>
+//       <div className="flex justify-center flex-wrap gap-10 text-5xl md:text-6xl text-sky-700">
+//         <i className="bx bxl-html5 hover:text-orange-500 transform hover:scale-125 transition-all duration-300 cursor-pointer shadow-lg p-2 rounded-full bg-white"></i>
+//         <i className="bx bxl-css3 hover:text-blue-500 transform hover:scale-125 transition-all duration-300 cursor-pointer shadow-lg p-2 rounded-full bg-white"></i>
+//         <i className="bx bxl-javascript hover:text-yellow-400 transform hover:scale-125 transition-all duration-300 cursor-pointer shadow-lg p-2 rounded-full bg-white"></i>
+//         <i className="bx bxl-react hover:text-sky-500 transform hover:scale-125 transition-all duration-300 cursor-pointer shadow-lg p-2 rounded-full bg-white"></i>
+//         <i className="bx bxl-git hover:text-red-500 transform hover:scale-125 transition-all duration-300 cursor-pointer shadow-lg p-2 rounded-full bg-white"></i>
+//       </div>
+//     </section>
+
     );
 }
